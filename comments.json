@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "author": "Dotun Olusoga",
+    "text": "This is one comment"
+  },
+  {
+    "id": 2,
+    "author": "Jordan Biden",
+    "text": "This is *another* comment"
+  },
+  {
+    "id": 3,
+    "author": "Barack Obama",
+    "text": "President of these United States"
+  },
+  {
+    "id": 4,
+    "author": "Michelle Obama",
+    "text": "When they go low, we go high!"
+  }
+]
