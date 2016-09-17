@@ -4,7 +4,8 @@
   "description": "Further work learning ReactJS",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "api": "json-server --watch comments.json --port 3004"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "dependencies": {
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.8.21"
   }
 }
