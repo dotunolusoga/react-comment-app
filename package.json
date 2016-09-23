@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/dotunolusoga/react-comment-app",
   "dependencies": {
+    "jquery": "^3.1.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
   },
   "devDependencies": {
+    "json-loader": "^0.5.4",
     "json-server": "^0.8.21"
   }
 }
