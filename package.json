@@ -19,6 +19,7 @@
   "homepage": "https://github.com/dotunolusoga/react-comment-app",
   "dependencies": {
     "jquery": "^3.1.0",
+    "lodash": "^4.16.4",
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
   },

@@ -1,4 +1,5 @@
 import React from 'react';
+import Game from './Game';
 
 class App extends React.Component {
   render(){
@@ -9,6 +10,7 @@ class App extends React.Component {
         <Button />
         <EmailForm currentEmail="mark@fb.com"/>
         <Container quotesData={quotesData} />
+        <GameGrid />
 
       </div>
     )
@@ -212,6 +214,26 @@ class Container extends React.Component {
         </div>
       </div>
     );
+  }
+}
+
+class GameGrid extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { gameId: 1 };
+  }
+  createNewGame() {
+    this.setState({ gameId: this.state.gameId + 1 })
+  }
+  render() {
+    return (
+      <div>
+        <Game key={this.state.gameId}
+              createNewGame={this.createNewGame.bind(this)}
+              rows={5} columns={5}
+              activeCellsCount={6} />
+      </div>
+    )
   }
 }
 

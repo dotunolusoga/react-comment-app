@@ -9,9 +9,7 @@ module.exports = {
     port: 3333
   },
   plugins: [
-    new webpack.EnvironmentPlugin([
-        'NODE_ENV'
-    ])
+
   ],
   module: {
     loaders: [
@@ -24,10 +22,6 @@ module.exports = {
         }
       }
     ]
-  },
-  export default {
-    "dev": {
-        "api": "http://localhost:3004"
-    }
   }
+
 }
